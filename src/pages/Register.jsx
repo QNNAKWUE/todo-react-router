@@ -9,7 +9,7 @@ import '../styles/register.css';
 
 const Register = () => {
 	const { register, handleSubmit } = useForm();
-	const { state, setState } = useContext(AppContext);
+	const {  setState } = useContext(AppContext);
 	const history = useHistory();
 
 	function registerUser({ email, password, confirmPassword }) {
